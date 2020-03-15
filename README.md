@@ -5,6 +5,7 @@ This is an implementation of a Klatt synthesizer as described in [this paper](ht
 There are two simple approaches to speech synthesis. The first one is concatenative synthesis, where a large corpus of phoneme samples are collected and concatenated together to form speech. The problem with this approach is that it would require much more memory to store all the audio samples than a simple microcontroller can hold. As such, I elected for using formant synthesis, where a single waveform is passed through multiple filters corresponding to various formants in order to model the vocal track.
 
 # Table of Contents
+* [Video Demo](#Video-Demo)
 * [Usage](#Usage)
     * [Setup](#Setup)
     * [Controls](#Controls)
@@ -18,6 +19,9 @@ There are two simple approaches to speech synthesis. The first one is concatenat
     * [Phoneme Input to Parameters](#Phoneme-Input-to-Parameters)
 * [Notes](#Notes)
 
+# Video Demo
+
+Will likely add later
 
 # Usage
 
