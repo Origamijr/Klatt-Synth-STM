@@ -1579,7 +1579,7 @@ void audioBlock(float *input, float *output, int32_t samples) {
             runningVoicePhase += frequency;
             if (runningVoicePhase > 1.0f) runningVoicePhase = runningVoicePhase - 1.0f;
 
-            // Calculate waveform of voincing source
+            // Calculate waveform of voicing source
             sig = sinTable(runningVoicePhase);
             sig = (sig > waveshapper) ? (sig - waveshapper) / (1.0f - waveshapper) : 0.0f;
 
